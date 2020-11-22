@@ -23,6 +23,12 @@ public class Tester{
     System.out.println(Arrays.toString(ArrayOps.sumRows(sumRowsTester2)));
 
     System.out.println();
+
     System.out.println(Arrays.toString(ArrayOps.largestInRows(sumRowsTester1)));
+
+    System.out.println();
+
+    System.out.println(ArrayOps.sum(sumRowsTester1));
+    System.out.println(ArrayOps.sum(sumRowsTester2));
   }
 }
