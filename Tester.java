@@ -30,5 +30,9 @@ public class Tester{
 
     System.out.println(ArrayOps.sum(sumRowsTester1));
     System.out.println(ArrayOps.sum(sumRowsTester2));
+
+    System.out.println();
+
+    System.out.println(Arrays.toString(ArrayOps.sumCols(sumRowsTester1)));
   }
 }
