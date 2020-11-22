@@ -14,5 +14,12 @@ public class Tester{
 
     System.out.println(ArrayOps.largest(SumTester1));
     System.out.println(ArrayOps.largest(SumTester3));
+
+    System.out.println();
+
+    int[][] sumRowsTester1 = {{1,2,3},{4,5,6}};
+    int[][] sumRowsTester2 = {{-3,2,-1}, {6,5,4}, {30,-20,10}};
+    System.out.println(Arrays.toString(ArrayOps.sumRows(sumRowsTester1)));
+    System.out.println(Arrays.toString(ArrayOps.sumRows(sumRowsTester2)));
   }
 }
